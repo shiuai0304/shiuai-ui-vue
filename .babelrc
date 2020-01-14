@@ -1,0 +1,21 @@
+{
+    "presets": [
+        ["env", {
+            "modules": false,
+            "targets": {
+            // ">1% " 兼容全球使用率大于1%的流览器
+            // last 2 versions 兼容每个游览器的最近两个版本
+            // not ie <= 8 不兼容ie8及以下
+            "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]   
+            }
+        }],
+        "stage-2"
+    ],
+    "plugins": ["transform-runtime"],  //启用插件 babel-plugin-transform-runtime 后，Babel 就会使用 babel-runtime 下的工具函数转译代码
+    "env": {
+        "test": {
+            "presets": ["env", "stage-2"],
+            "plugins": ["istanbul"]
+        }
+    }
+}
