@@ -1,8 +1,8 @@
 {
-  "name": "@shuai.shi/shiuai-vue-dyt-calendar",
+  "name": "@shuai.shi/shiuai-ui-vue",
   "version": "1.0.0",
   "description": "vue导医通日历插件",
-  "main": "dist/shiuai-vue-dyt-calendar.min.js",
+  "main": "dist/shiuai-ui-vue.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot  --inline",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fenglingze/shiuai-vue-dyt-calendar.git"
+    "url": "git+https://github.com/fenglingze/shiuai-ui-vue.git"
   },
   "keywords": [
     "导医通日历组件"
@@ -18,9 +18,9 @@
   "author": "shuai.shi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fenglingze/shiuai-vue-dyt-calendar/issues"
+    "url": "https://github.com/fenglingze/shiuai-ui-vue/issues"
   },
-  "homepage": "https://github.com/fenglingze/shiuai-vue-dyt-calendar#readme",
+  "homepage": "https://github.com/fenglingze/shiuai-ui-vue#readme",
   "devDependencies": {
     "sass": "^1.21.0",
     "vue": "^2.5.2",
