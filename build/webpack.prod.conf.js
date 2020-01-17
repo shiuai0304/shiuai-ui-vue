@@ -33,6 +33,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     path: config.build.assetsRoot,
     // filename: utils.assetsPath('js/[name].[chunkhash].js'),
     // chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
+    // filename:'[name].js',
     filename:'[name].js',
     library:'shiuaiUI',
     libraryTarget:'umd'
