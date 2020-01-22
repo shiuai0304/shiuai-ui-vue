@@ -1,12 +1,16 @@
-import Calendar from './components/Calendar.vue';
+import Calendar from './components/Calendar/Calendar.vue';
 
 // install 是 用来全部安装的关键
-const install = function(Vue) {
-  if (install.installed) return;
+
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(install)
+}
+
+function install (Vue) {
   Vue.component(Calendar.name, Calendar)
-};
+}
 
 export default {
   install,
   Calendar
-};
+}

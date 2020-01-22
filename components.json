@@ -1,3 +1,3 @@
 {
-    "Calendar":"./src/components/Calendar.vue"
+    "Calendar":"./src/components/Calendar/Calendar.vue"
 }
