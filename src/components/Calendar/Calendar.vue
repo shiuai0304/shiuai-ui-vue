@@ -26,7 +26,7 @@
 </template>
 <script>
 export default {
-    'name':'Calendar',
+    name:'shiuai-calendar',
     data(){
         return{
             calendarShowList:[],
