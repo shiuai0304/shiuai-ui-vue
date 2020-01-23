@@ -1,8 +1,23 @@
 {
-  "name": "eslint-cli2",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "shiuai <1219363257@qq.com>",
+  "name": "@shuai.shi/shiuai-ui-vue",
+  "version": "0.0.7",
+  "description": "shiuaiUI，vue组件库",
+  "main": "lib/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenglingze/shiuai-ui-vue.git"
+  },
+  "keywords": [
+    "shiuaiUI",
+    "vue",
+    "组件库"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenglingze/shiuai-ui-vue/issues"
+  },
+  "homepage": "https://github.com/fenglingze/shiuai-ui-vue#readme",
+  "author": "shuai.shi",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
