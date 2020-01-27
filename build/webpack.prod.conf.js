@@ -20,7 +20,7 @@ Object.keys(components).forEach((item)=>{
     entrys[item]=components[item]
 })
 const webpackConfig = merge(baseWebpackConfig, {
-  entry:entrys,
+  entry:Object.assign({'app':'./src/componentIndex.js'},entrys),
   module: {
     rules: utils.styleLoaders({
       sourceMap: config.build.productionSourceMap,
