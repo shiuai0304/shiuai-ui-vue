@@ -1,5 +1,5 @@
-import Calendar from './components/Calendar/Calendar.vue';
-import Input from './components/Input/Input.vue';
+import Calendar from './components/Calendar';
+import Input from './components/Input';
 
 // install 是 用来全部安装的关键
 if (typeof window !== 'undefined' && window.Vue) {

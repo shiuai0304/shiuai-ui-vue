@@ -1,4 +1,5 @@
 {
-    "Calendar":"./src/components/Calendar/Calendar.vue",
-    "Input":"./src/components/Input/Input.vue"
+    "Calendar":"./src/components/Calendar",
+    "Input":"./src/components/Input",
+    "index": "./src/componentIndex.js"
 }

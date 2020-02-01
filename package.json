@@ -1,6 +1,6 @@
 {
   "name": "@shuai.shi/shiuai-ui-vue",
-  "version": "0.0.10",
+  "version": "0.0.13",
   "description": "shiuaiUI，vue组件库",
   "main": "lib/app.js",
   "repository": {
