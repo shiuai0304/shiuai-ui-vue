@@ -1,0 +1,5 @@
+{
+    "Calendar":"./src/components/Calendar",
+    "Input":"./src/components/Input",
+    "index": "./src/componentIndex.js"
+}
