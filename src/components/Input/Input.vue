@@ -1,6 +1,6 @@
 <template>
     <div class="shiuai-input-con">
-        <input placeholder="请输入您的内容！0.0.14"/>
+        <input placeholder="请输入您的内容！0.0.16"/>
     </div>
 </template>
 <script>

@@ -157,21 +157,20 @@ export default {
 }
 </script>
 <style >
-.tj_calendar_header,.tj_calendar_content{
-    width:420px;
+.tj_calendar_header,.tj_calendar_content {
+    width: 420px;
+    font-size: 0px;
 }
-.tj_calendar_headItem,.tj_calendar_main{
-    width:60px;
+.tj_calendar_headItem,.tj_calendar_main {
+    width: 60px;
     height: 60px;
     display: inline-block;
     vertical-align: top;
-}
-.tj_calendar_main{
-
+    font-size: 14px;
 }
 .tj_calendar_day{
     display: inline-block;
-    width:30px;
+    width: 30px;
     height: 30px;
     line-height: 30px;
     text-align: center;
